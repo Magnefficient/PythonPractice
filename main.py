@@ -13,8 +13,7 @@ for s in letter:
 
 
 for t in range(len(choiceGroup)):
-    if choiceGroup[t] != studentGroup[t]: """# fixed the problem in which the incorect number of letters mispelled wwas displayed by linking the current  
-                                          value of t to the index of the two list this  allowed both letters to be analyzed by the computer  at the same time """
+    if choiceGroup[t] != studentGroup[t]: 
         mispelled += 1
 
 
@@ -30,6 +29,7 @@ print(mispelled , "letter(s) mispelled")
 
 
 
-
+"""# fixed the problem in which the incorect number of letters mispelled wwas displayed by linking the current  
+                                          value of t to the index of the two list this  allowed both letters to be analyzed by the computer  at the same time """
 
 
