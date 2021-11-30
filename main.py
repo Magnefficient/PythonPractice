@@ -1,7 +1,9 @@
+#program to calculate and output how many letters were incorrect if a word was mispelled.
+
 choiceGroup = []
 studentGroup =[]
 mispelled = 0
-choiceOfWord = input("ask the other user what  they want to type")
+choiceOfWord = input("what do you want the user to spell")
 for x in choiceOfWord:
     choiceGroup.append(x)
 
